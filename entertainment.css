@@ -1,0 +1,14 @@
+
+.slider{
+    width:90%;
+    height:400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 80px auto;
+}
+
+#semiNav{bottom: 80px;position: relative;}
+.shownext{display: flex;justify-content: space-around;padding:0px 200px;}
+.shownext li{list-style-type: none;padding: 4px 10px;
+    background-color: green;cursor: pointer;transition: 0.4s;font-weight: 900;}
+.shownext li:hover{background-color: rgb(2, 192, 2);}
+#next1,#next2,#next3,#next4,#next5{display: none;animation: fade 3s ease-in-out;}
