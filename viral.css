@@ -10,9 +10,10 @@ body a{color: white;}
 .flex img{width: 70%;}
 .flex b{font-weight: 800;font-size: 14px;text-transform: uppercase;}
 .span{font-size: 13px;}
+
 .smm .writer-name{text-transform: capitalize;}
 .heading .line{width: 90%;}
-.heading{margin: 0 10%;}
+.heading{margin: 0 1%;}
 
 @media only screen and (max-width: 701px) {
  .shownext{justify-content: space-around;}
@@ -21,17 +22,18 @@ body a{color: white;}
  .imgtxt img{width: 40%;}
  .block{width: 100%;}
  .icon-text3 img{width: 40%;margin: 0%;height: 30px;}
- 
+ .icon-text3{margin: 0px;}
+
 
   }
   @media only screen and (max-width: 1001px) {
-.flex{display: block;width: 90%;margin: 3%;}
+.flex{display: block;width: 90%;}
 .flex b{font-size: 20px;}
 .smm{text-align: left;} 
-
+#allthe-read2 .block{margin: 0px 10px;}
     .shownext{justify-content: space-around;padding: 0 200px;}
     .shownext li{padding:4 10px;margin: 0px;}
- .imgtxt{display: flex;margin: 0px;width: 90%;padding: 0px;position: relative;right: 70px;}
+ .imgtxt{margin:0px 70px;width: 90%;padding: 0px;position: relative;right: 70px;}
  .imgtxt img{width: 50%;}
  .imgtxt-text{margin-top: 40px;}
  .icon-text3{margin: 40px;}
@@ -43,7 +45,9 @@ body a{color: white;}
   @media only screen and (max-width: 1200px) {
 html{zoom: 70%;}  
 .block{width: 100%;margin: auto;}
-.threeflex{flex-wrap: wrap;}
+.threeflex .icon-text3 img{height: 100px;;}
+.threeflex .icon-text3{flex-wrap: wrap;width: 100%;margin: 0px 20pz;}
+.threeflex {zoom: 90%;margin: 20px;}
 .shownext {padding: 0px 40%;}
 
 }

@@ -16,14 +16,28 @@
     <header  id="allpage-content" >
       <div class="semi-head" >
 
-
-    
-        
+   
           <div class="semi-headtext">
-          <a href="">advertise</a>
+          <a href="#ggg" onclick="advert()">advertise</a>
           <a href="tel:+2348140170078">contact us</a>
           <a href="">subscribe</a>
+          
         </div>
+
+        <div class="search-cont">
+          <i class="fa-solid fa-search" onclick="gosearch()"></i>
+          <input type="search" name="" id="searchInput"  placeholder="search......">
+          
+        </div>
+        
+        <div class="flex" id="switch">
+        <label class="switch" onclick="turn('')">
+          <input type="checkbox" checked>
+          <div class="switcher round"></div>
+        </label>
+
+      </div>
+  
         
         <div class="icons" >
           <a href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
@@ -37,10 +51,10 @@
         
          
       <div class="fullscreen-navbar">
-      <div class="logo1">
-        <img src="nigerancanva.png" alt="">
+      <a href=""><div class="logo1">
+        <img src="nigerancanva.png" alt="picture">
     
-      </div>
+      </div></a>
 
       <div class="nav1">
         
@@ -54,32 +68,24 @@
           <div id="myDropdown" class="dropdown-content">
             <b href="javascript:void(0)" class="closedrop" onclick="closedrop()">
               <b>&times;</b> </b><br>
-            <a href="#worldn">world news</a>
+            <a href="#trend">Trending</a>
+            <a href="#viralnews">Viral News</a>
+            <a href="#intl">International</a>
             <a href="#video&mus">Nigerian music & videos</a>
-            <a href="#popular">popular news</a>
+            <a href="#bbn">BBNaija update news</a>
             <a href="#latest">Latest</a>
             <a href="#entertainment">entertainment News</a>
-            <a href="#sports">sports</a>
-            <a href="#viral">Viral News</a>
-            <a href="#health">Health</a>
-            <a href="#bbn">BBNaija update</a>
-            <a href="#blockbuster">BlockBusters</a>
-            <a href="#musicupdate">Music Update</a>
-            <a href="#canival">Canivals</a>
-            <a href="#sponsor">Sponsored</a>
-            <a href="#relationship">Relationship</a>
-          
+          <a href="#sports">Sports update</a>
     
           </div>
         </div>
       </div>
         
-        <a href="thenigerian.html" class="present">Home</a>
-        <a href="TheNigerians-Entertainment.html" >Entertainment news</a>
-        <a href="thenigerianViral.html">Viral news</a>
-        <a href="thenigerianNews.html">News</a>
-        <a href="thenigerianMusic&Videos.html">Nigeria music & videos</a>
-        <a href="thenigeriansBBNaijaupates.html">BBNaija season</a>
+        <a id="link"href="thenigerian.html" class="present">Home</a>
+        <a id="link"href="TheNigerians-Entertainment.html" >Entertainment news</a>
+        <a id="link"href="thenigerianNews.html">News</a>
+        <a id="link"href="thenigerianMusic&Videos.html">Nigeria music & videos</a>
+        <a id="link"href="thenigeriansBBNaijaupates.html">BBNaija season</a>
         
         
 
@@ -91,22 +97,41 @@
     <div class="smallscreen-navbar" id="smallscreen">
 
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="thenigerian.html" class="present">Home</a>
-        <a href="TheNigerians-Entertainment.html">Entertainment</a>
-        <a href="thenigerianViral.html">Viral News</a>
-        <a href="thenigerianNews.html">News</a>
-        <a href="thenigerianMusic&Videos.html">Nigerian music & Videos</a>
-        <a href="thenigeriansBBNaijaupates.html">BBNaija season</a>
+        <a id="link"href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a id="link"href="thenigerian.html" class="present">Home</a>
+        <a id="link"href="TheNigerians-Entertainment.html">Entertainment</a>
+        <a id="link"href="thenigerianNews.html">News</a>
+        <a id="link"href="thenigerianMusic&Videos.html">Nigerian music & Videos</a>
+        <a id="link"href="thenigeriansBBNaijaupates.html">BBNaija season</a>
         
         <br><br>
        <center> <div class="icons" >
-          <a href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
-           <a href=""><i  class="fa-brands fa-twitter"></i></a>
-          <a href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
-           <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
+          <a id="link"href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
+           <a id="link"href=""><i  class="fa-brands fa-twitter"></i></a>
+          <a id="link"href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
+           <a id="link"href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
          </div></center>
-
+         <a id="link"href="tel:+2348140170078">contact us</a>
+         <a id="link"href="mailto:reachthenigerians@gmail.com">advertize</a>
+         <a id="link"href="#subs">subscribe</a>
+         <br>
+         <div class="dropsmall" >
+          <b class="dropbtnsmall">home &#10097;
+            <b onclick="showdropdownsmall()" class="category">category <i class="fa-solid fa-angle-down" style="font-size: 20px;"></i></b>
+            </b>
+            <br>
+          <div class="dropdown-content-small" id="small-dropdown">
+            <a id="link"href="#trend">Trending</a>
+            <a id="link"href="#viralnews">Viral News</a>
+            <a id="link"href="#intl">international</a>
+            <a id="link"href="#video&mus">Nigerian music & videos</a>
+            <a id="link"href="#bbn">BBNaija update news</a>
+            <a id="link"href="#latest">Latest</a>
+            <a id="link"href="#entertainment">entertainment News</a>
+          <a id="link"href="#sports">Sports update</a>
+    
+          </div>
+        </div>
     
 
 
@@ -118,14 +143,22 @@
     </div> 
       
 
-      <div class="logo2" id="logo2">
-        <img src="nigerancanva.png" alt="">
-      </div>
+      <a id="link"href=""><div class="logo2" id="logo2">
+        <img src="nigerancanva.png" alt="picture">
+      </div></a>
 
     </div>
-    </header>
+    </header><br>
 
-    <a href="#allpage-content">
+    <div class="search-cont2">
+    
+      
+      <i class="fa-solid fa-search"></i>
+      <input type="search" name="" id="" placeholder="search......">
+  
+    </div>
+
+    <a id="link"href="#allpage-content">
       <div id="goup" >
         <center><div id="up">
         <b>&#10148;</b>
@@ -133,34 +166,15 @@
       </div>
     </a>
 
-    <section onclick="removeNav()"> 
-
-<!--
-   <div class="banner"> 
-
-  <div class="banner-container">
-
-      <div class="img1">
-        <img src="set-cam.jpg" alt="">
-      <img src="teach.jpg" alt="">
-      <img src="hi-five.jpg" alt="">
-    </div>
-    
-    <div class="bannertext">
-    <b class="bannertext-title">Today: Entertainment News</b>
-      <p><b class="text">i am not married to ade,we are just dating,
-        i am not married to ade,we are just dating
-        i am not married to ade,we are just dating
-      </b></p>
+      <section onclick="removeNav()" id="bdy"> 
   
-    </div>
-  
-</div>
-</div>
--->
-
-
-  
+        <center>
+             <b>automatic date</b>
+        <p id="date"></p>
+        <p id="weekend"></p>
+     </center>   
+             
+      
 
 <!--NEW READS ON THE HOME SECTION-->
 
@@ -180,7 +194,8 @@
 <div id="latest"></div><br><br><br><br><br><br><br>
    
     <div class="heading" style="margin: 3%;">
-    <b class="header" style="background-color: black;position: relative;top: 20px;padding: 0px 10px;">Latest post</b>
+    <b class="header" >
+      <i class="fa-solid fa-clock"></i>Latest post</b>
         <div class="line" style="width: 97%;"></div>
       </div>
       
@@ -189,241 +204,66 @@
 
 
 <div class="slideshow-container" >
+ 
+  <div class="mySlides fade" id="myslide">
+  <div class="news-detail">
 
-  <br>
- <div style="text-align:center">
-   <span class="dot" onclick="currentSlide(1)"></span>
-   <span class="dot" onclick="currentSlide(2)"></span>
-   <span class="dot" onclick="currentSlide(3)"></span>
-   <span class="dot" onclick="currentSlide(4)"></span>
-   <span class="dot" onclick="currentSlide(5)"></span>
-   <span class="dot" onclick="currentSlide(6)"></span>
-   <span class="dot" onclick="currentSlide(7)"></span>
+  <a id="link"href="details-home.html"> <b>man stabs step brother over land dispute after court judgement in awka</b></a>
 
- </div><br>
+</div>
+<p><span class="span">by</span> <b class="writer-name">Vivian Nwoko </b></p>
 
  <!--LATEST NEWS1--> 
- <div class="mySlides fade" id="myslide">
+ 
 
-   <div class="numbertext">Entertainment News</div>
-  <a href="">
-    <img src="set-cam.jpg" style="width:100%"> 
+   <div class="numbertext">LATEST</div>
    
-   <div class="text">
-     <b> Caption Text</b> <br>
-     <span class="slidebrief-text">
-       i am not married to ade,we are just dating,
-       i am not married to ade,we are just dating
-       i am not married to ade,we are just dating</span>
-   </div>  
+   
+  <a id="link"href="details-home.html">
+    <img src="set-cam.jpg" style="width:100%"> 
+    
  </a>
+
+<div class="share-icon">
+
+  <center> <div class="icons" >
+    <a id="link"href="http://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
+     <a id="link"href=""><i  class="fa-brands fa-twitter"></i></a>
+    <a id="link"href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
+     <a id="link"href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
+     <a id="link"href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-share" style="border-right:1px solid rgb(53, 52, 52);" ></i></a>
+
+   </div></center>
+
+</div>
+<b><i class="fa-solid fa-clock"></i><span class="span"> April 20, 2023</b>
+
      <div class="news-detail">
-      <a href=""> <b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-         At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-         <br>
-         <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-       
+
          <p><span style="font-weight:700;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
            aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-           <p><button class="read-more">READ MORE</button></p>
+          <a id="link"href="details-home.html"> <p><button class="read-more">READ MORE</button></p></a>
          
-          </div>
-          <br><br>
-       
-   </div>
-
- <!--LATEST NEWS2-->
- <div class="mySlides fade slide">
-   <div class="numbertext">VIRAL NEWS</div>
- <a href="">
-   <img src="customer.jpg" style="width:100%">
-   
-   
-   <div class="text">
-     <b> Caption Text</b> <br>
-     <span class="slidebrief-text">
-       i am not married to ade,we are just dating,
-       i am not married to ade,we are just dating
-       i am not married to ade,we are just dating</span>
-   </div>
- </a>  
-     <div class="news-detail">
-       <a href=""><b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-         At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-         <br>
-         <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-           <p><button class="read-more">READ MORE</button></p>
-
-       
-         <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-           aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-         
-           <p><button class="read-more">READ MORE</button></p>
-         
-          </div>
-          <br><br>
-       
- </div>
- 
- <!--LATEST NEWS3-->
- <div class="mySlides fade slide">
-     <div class="numbertext">NEWS TODAY</div>
-    <a href="">
-     <img src="set-cam.jpg" style="width:100%">
-     
-     
-   <div class="text">
-     <b> Caption Text</b> <br>
-     <span class="slidebrief-text">
-       i am not married to ade,we are just dating,
-       i am not married to ade,we are just dating
-       i am not married to ade,we are just dating</span>
-   </div> 
- </a> 
-     <div class="news-detail">
-       
-       <a href=""><b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-         At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-         <br>
-         <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-       
-         <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-           aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-           <p><button class="read-more">READ MORE</button></p>
-        
-          </div>
-          <br><br>
     </div>
- 
-    <!--LATEST NEWS4-->
- <div class="mySlides fade slide">
-   <div class="numbertext">Entertainment Today</div>
-  <a href="">
-   <img src="customer.jpg" style="width:100%">
-   
-   
-   <div class="text">
-     <b> Caption Text</b> <br>
-     <span class="slidebrief-text">
-       i am not married to ade,we are just dating,
-       i am not married to ade,we are just dating
-       i am not married to ade,we are just dating</span>
-   </div> 
- </a> 
-     <div class="news-detail">
-      
-      <a href=""> <b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-         At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-         <br>
-         <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
+
+    <div class="actions">
+<div class="i">      
+<i class="fa-solid fa-message"></i><sup>2</sup><span  style="font-weight: 100;font-size: 17px;"> Comments  </span>
+</div>
+
+<div class="i">
+<i class="fa-solid fa-heart"></i><sup>101</sup><span  style="font-weight: 100;font-size: 17px;"> Reactions</span>
+</div>
+
+</div>
        
-         <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-           aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-           <p><button class="read-more">READ MORE</button></p>
-         
-          </div>
-          <br><br>
-       
+  
+
+  <br><br><br>
  </div>
+</div>
 
- <!--LATEST NEWS5-->
-
- <div class="mySlides fade slide">
-     <div class="numbertext">MUSIC & VIDEOS</div>
-   
-     <a href="">
-     <img src="chat-circle.jpg" style="width:100%">
-     <div class="text">
-       <b> Caption Text</b> <br>
-       <span class="slidebrief-text">
-         i am not married to ade,we are just dating,
-         i am not married to ade,we are just dating
-         i am not married to ade,we are just dating</span>
-     </div>
-   </a>  
-       <div class="news-detail">
-         <a href=""><b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-           At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-           <br>
-           <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-         
-           <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-             aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-             <p><button class="read-more">READ MORE</button></p>
-          
-            </div>
-            <br><br>
-         
-   </div>
-   
- <!--LATEST NEWS6-->
-
- <div class="mySlides fade slide">
-     <div class="numbertext">TRENDS</div>
-    <a href="">
-     <img src="childhood-teach.jpg" style="width:100%">
-     <div class="text">
-       <b> Caption Text</b> <br>
-       <span class="slidebrief-text">
-         i am not married to ade,we are just dating,
-         i am not married to ade,we are just dating
-         i am not married to ade,we are just dating</span>
-     </div>
-   </a>  
-       <div class="news-detail">
-         <a href=""><b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-           At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-           <br>
-           <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-         
-           <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-             aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-             <p><button class="read-more">READ MORE</button></p>
-
-            </div>
-            <br><br>
-         
-   </div>
-   
- <!--LATEST NEWS7-->
-   <div class="mySlides fade slide">
-     <div class="numbertext">FASHIONS TODAY</div>
-    <a href="">
-     <img src="customer.jpg" style="width:100%">
-     <div class="text">
-       <b> Caption Text</b> <br>
-       <span class="slidebrief-text">
-         i am not married to ade,we are just dating,
-         i am not married to ade,we are just dating
-         i am not married to ade,we are just dating</span>
-     </div>
-   </a>  
-       <div class="news-detail">
-         <a href=""><b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-           At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
-           <br>
-           <p><i>by sacvu testing:  </span> <span>April 20<sup>th</sup>, 2023</i></p>
-         
-           <p><span style="font-weight:400;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
-             aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
-             <button class="read-more">READ MORE</button>
-          
-            </div>
-            <br><br>
-         
-   </div>
-   
- <a class="prev" onclick="plusSlides(-1)">❮</a>
- <a class="next" onclick="plusSlides(1)">❯</a>
- 
- </div>
 
     <!--container that determine the margin of the read-->
   <section class="other-read">
@@ -431,67 +271,55 @@
     <div id="allthe-read2" >
 
     <div class="block">
-       
+
       <!--the class "icon-text determine the flex of the icon and word here but smaller text-->
         <div class="icon-text">
-        <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi   </a>
+        <b><i class="fa-solid fa-play"></i></b> <a id="link"href="details-home.html" >" i cant bear it any more!"- Man cries after ten years of calibacy.</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">"she is like a mother to me"- Nigerian Man said after being accused of homicide.</a>
         </div>
 
         <div class="icon-text ">
-          <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">"i finally got married"- bride cause a stir in church.</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="" >"i am not your father" - singer tory replies a fan</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="" >"i can't believe this" - student say after being suspended days before final exams.</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="" >"i will claim my mandate"- peter obi</a>
         </div>
 
       </div>
       <div class="block">
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href=""  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href=""  >" we have all it takes to get what we want" - tinubu > peter obi</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="" >"we want a better Nigeria" - emeka ikeh</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">" i have cried enough" - hilda bacy</a>
         </div>
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">"this is atrocious"-  shatima cries out</a>
         </div>
         <div class="icon-text ">
-          <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">man caught having sex with a dog in Kebi blames it on his village witches</a>
         </div>
 
         <div class="icon-text">
-          <b><i class="fa-solid fa-play"></i></b> <a href="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          <b><i class="fa-solid fa-play"></i></b> <a id="link"href="" >"we have seen enough"- Nigerians in diaspora storms Uk appeal court over election redress</a>
         </div>
     
       </div>
@@ -509,144 +337,135 @@
 <div id="entertainment"></div><br><br><br><br><br><br><br>
       
 <div class="heading">
-  <b class="header">Entertainment news</b>
+  <b class="header"> <i class="fa-brands fa-tiktok"></i>Entertainment news</b>
     <div class="line"></div>
 </div><br>
 
         <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> Africa magic viewers chioce award concert taking the great turn out
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i> April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
           <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> nollywood redresses plot storyline in native movies
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i> April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>         
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q> "government is not doing enough in entertainment</q>- kayoma
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> residents plan massively for the next canival in clabar
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i> April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q>we are taking a better turn in entertainment</q> - min. entertainment
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> miss universes grown a new queen
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
          <div class="icon-text2">
-           <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+           <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q> i have something bash on the way</q>- davido
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> nollywood launches a new cinema villa
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div>   
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q>i am tired of being the village girl</q> - actress Joice
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div> 
-         <br><br><br><br>
+         
 
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> AMVAC opens new curtain
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div> 
+
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q>staring me in the movie would have been a disaster</q>- actor frank agoho
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
          </div> 
+
          <div class="icon-text2">
-          <img src="customer.jpg" alt="">
-           <a href="" class="icon2head"> <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius </q>
+          <img src="customer.jpg" alt="picture">
+           <a id="link"href="" class="icon2head"> <q>we are getting alot things ready for the big shoot</q>- knacht
            <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
            <p><button class="read-more">READ MORE</button></p>
            </a>
-         </div> <br><br>
+         </div>
+         <a id="link"href="TheNigerians-Entertainment.html"><button class="load-more" style="font-weight: 900;"> View More</button></a>
+
    
+         <div id="trend"></div><br><br><br><br><br><br>
          <div class="heading">
           <b class="header"><i class="fa-solid fa-fire-flame-simple"></i> Trending Today</b>
             <div class="line"></div>
         </div>
-     <img src="set-cam.jpg" alt="" width="80%">
+     <img src="set-cam.jpg" alt="picture" width="80%"><br>
      <div class="icon-text1">
-    <a href="">Woman who died after child birth spotted in a market square at magudu abuja after 7years of being burried</a>
+    <a id="link"href="">
+      Woman who died after child birth spotted in a market square at magudu abuja after 7years of being burried</a>
     <p><span>by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
     </div>
     
     <div class="icon-text2">
-      <img src="customer.jpg" alt="">
-       <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-       Illumsunt<br> aperiam eius
+      <img src="customer.jpg" alt="picture">
+       <a id="link"href="" class="icon2head">"we no longer accept immigrants"- UK embassy
        <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
        </a>
      </div>
 
      <div class="icon-text2">
-      <img src="customer.jpg" alt="">
-       <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-       Illumsunt<br> aperiam eius
+      <img src="customer.jpg" alt="picture">
+       <a id="link"href="" class="icon2head">"i killed my husband for ritual"- woman confesses
        <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
        </a>
      </div>
      
      <div class="icon-text2">
-      <img src="customer.jpg" alt="">
-       <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-       Illumsunt<br> aperiam eius
+      <img src="customer.jpg" alt="picture">
+       <a id="link"href="" class="icon2head">man utd lost with 4 goals
        <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
        </a>
      </div>
 
-     <button class="load-more" style="font-size: 17;font-weight: 900;">View More</button>
+     <a id="link"href="thenigerianNews.html"><button class="load-more" style="font-size: 17;font-weight: 900;">View More</button></a>
      <br>
 
 
@@ -662,72 +481,77 @@
   <!--READ CONTAINER WITH SMALLER IMAGES AND FEWER 
     TEXTS BEARING THE OFSET CONTAINER {TRANS} AND NORMS, ALSO HAS SINGLE IMAGES-->
  
-    <section id="allother-read2" >
+    <section id="allother-read2">
 
     <!--container that determine the margin of the read-->
-    <div class="other-read">
+    <div class="other-read" style="border-bottom: 0px;">
       <br>
     <center>
       
       <div class="advert-container">
-        <div class="advert-content"></div>
+        <div class="advert-content">
+
+
+<b style="--i:1;">THE</b> <br>
+<b style="--i:7;">NIGERIANS</b>
+
+        </div><br>
         <b class="advert-text">advertisement</b>
       </div>
 
     </center><br><br><br><br><br>
-    <div id="worldn"></div><br><br><br><br><br><br>
+
+<div  class="scroll">
+    
+    <div id="sports"></div><br><br><br><br><br><br>
 
         <div class="heading">
-          <b class="header"><i class="fa-solid fa-globe"></i> World News</b>
+          <b class="header"><i class="fa-solid fa-globe"></i> sports update</b>
             <div class="line"></div>
         </div>
      
         <!--the class "icon-text determine the flex of the image and word 
         here but has smaller image sna lighter text"-->
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">Nigeria battles new zeland - <br> fifa word cup finals </a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">"we need a new caoch"- <br> machester utd</a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">elsa takes a big win on the woman's track race</a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">manchesta vs arsenal - <br> world cup</a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
         </div>
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
         </div>
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
         </div>
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
-        </div>
-        <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
-        </div>
-        <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
-        </div>
-        <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
-        </div>
-        <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
         </div><br>
         
 
           
-       <button class="load-more">STREAM MORE</button> <br><br>
+      <a id="link"href="thenigerianNews.html"> <button  onclick="next1()" class="load-more" style="font-weight: 900;">view more</button> <br><br></a>
           
           
           
@@ -738,102 +562,84 @@
           <b class="header"><i class="fa-brands fa-youtube"></i> Nigerian Music & Videos</b>
             <div class="line"></div>
         </div>
-        <img src="set-cam.jpg" alt="" width="80%">
+        <img src="set-cam.jpg" alt="picture" width="80%">
 
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
            ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
            
         </div>
   
         <div class="icon-text3">
-          <img src="customer.jpg" alt="">
-          <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+          <img src="customer.jpg" alt="picture">
+          <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
            ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
            
         </div>
   
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
   
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
   
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
             
+            <div class="header" style="font-weight: bolder;">thrillers</div>
+
+
+
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
             </div>
+
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
   
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
             <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
+              <img src="customer.jpg" alt="picture">
+              <a id="link"href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
                ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
+          <a id="link"href="thenigerianMusic&Videos.html"><button class="load-more" style="font-weight: 900;">View More</button></a>
+
             
             <div class="subscribe-form">
               <form action="">
-            <b>Join Our Community</b>
+             <b> <i class="fa-solid fa-users"></i>Join Our Community</b>
             
             <div class="line" style="height: 2px;"></div><br>
             <span>Don't miss an Update, get latest <br> news on your Email</span><br>
@@ -842,18 +648,18 @@
           </form>
           </div>
 
-          <div id="popular"></div><br><br><br><br><br><br><br>
+          <div id="bbn"></div><br><br><br><br><br><br><br>
 
           <div class="heading">
-            <b class="header">Popular News</b>
+            <b class="header"><i class="fa-solid fa-eye"></i>BBNaija update news</b>
               <div class="line"></div>
           </div>
-          <img src="set-cam.jpg" alt="" width="80%">
+          <img src="set-cam.jpg" alt="picture" width="80%">
 
 
           <div class="icon-text4">
 
-          <p  class="icon4text"><a href="" style="font-size: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p  class="icon4text"><a id="link"href="" style="font-size: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           <div class="number"><center> 01 </center></div>
 
@@ -862,642 +668,151 @@
           <div class="icon-text4">
             <div class="numbers"><center> 02 </center></div>
           
-          <p><a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p><a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           </div>
           
           <div class="icon-text4">
           <div class="numbers"><center> 03 </center></div>
-          <p><a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p><a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           </div>
           
           <div class="icon-text4">
             <div class="numbers"><center> 04 </center></div>
           
-          <p><a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p><a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           </div>
           
           <div class="icon-text4">
             <div class="numbers"><center> 05 </center></div>
           
-          <p><a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p><a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           </div>
           
           <div class="icon-text4">
             <div class="numbers"><center> 06 </center></div>
           
-          <p><a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          <p><a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a></p>
           </div>
+          <a id="link"href="thenigeriansBBNaijaupates.html"><button class="load-more" style="font-weight: 900;">View More</button></a>
+
 <br><br>
+          <div id="viralnews"></div><br><br><br><br><br><br><br>
           <div class="heading">
-            <b class="header">Int'l News</b>
+            <b class="header"><i class="fa-solid fa-globe"></i>News</b>
               <div class="line"></div>
           </div>
        
           <!--the class "icon-text determine the flex of the image and word 
           here but has smaller image sna lighter text"-->
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div>
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div>
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div>
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+          </div>
+
+
+          <div id="intl"></div><br><br><br><br><br>
+          <div class="heading">
+            <div class="header" style="font-weight: bolder;">Int'l news</div>
+          </div>
+
+          <div class="icon-text3">
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div>
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div>
+
           <div class="icon-text3">
-            <img src="customer.jpg" alt="">
-            <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+            <img src="customer.jpg" alt="picture">
+            <a id="link"href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
             sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
           </div><br>
-          <button class="load-more" style="font-weight: 900;">View More</button>
-          <br><br>
-    </div>
-      
-  </section>
-
-  </div>
-
-
-<!--FIRST SET OF READS ON FLEX ENDS HERE-->
-
-   </section><br><br><br>
-   <div id="bbn"></div><br><br><br><br><br><br><br>
-
-  <div class="tflex">
-
-   <div class="heading" >
-    <b class="header">BBNaija Season(2023)</b>
-      <div class="line"></div>
-  </div>
-
-
-<div class="threeflex">
-  <div>
-
-        <img src="teach.jpg" alt="" width="80%"><br>
-        <p><span class="span">by <b class="writer-name">Vivian Nwoko </b>April 20, 2023</span></p>
-        <div class="textw">
-          <a href="" style="padding: 0px;margin: 0px;">“I don dey Europe for 2 years and I never still make am”
-             – Man who sleeps in bush abroad</a><br>
-            </div>
-        <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-           Fugiat possimus saepe laboriosam eveniet cum, praesentium illum quam,
-           fugit minus corporis velit tenetur asperiores optio ut delectus.</span>
-          <br>
-          <p><button class="read-more">READ MORE</button></p>
-  </div>
-  <div>
-
-    <div class="icon-text3">
-      <img src="customer.jpg" alt="">
-      <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-
-    </div>
-    <div class="icon-text3">
-      <img src="customer.jpg" alt="">
-      <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-
-    </div>
-    <div class="icon-text3">
-      <img src="customer.jpg" alt="">
-      <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-
-    </div>
-    <div class="icon-text3">
-      <img src="customer.jpg" alt="">
-      <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-
-    </div>
-
-
-  </div>
-  
-  <div>
-
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span style="color: gray;">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-      
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span style="color: gray;">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-      <p><span style="color: gray;">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-      sunt aperiam eius aliquid reprehenderit aut! Excepturi
-      <p><span style="color: gray;">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-    </a>
-    </div>
-
-  </div>
-
-
-</div>
-</div>
-      <!--container that determine the width of the read - for the first read on block and flex
-        has different width with the later-->
-<div id="allthe-reads">
-
-  <section id="allother-read1">
-    <section class="other-read">
-
-    <div class="advert-container">
-      <div class="advert-content"></div>
-      <b class="advert-text">advertisement</b>
-    
-    </div><br><br>
-    <div id="viral"></div><br><br><br><br><br><br><br>
-
-    <div class="heading">
-      <b class="header">Viral News</b>
-        <div class="line"></div>
-    </div><br>
-    
-        <div class="textw">
-        <a href="" style="padding: 0px;margin: 0px;">“I don dey Europe for 2 years and I never still make am”
-           – Man who sleeps in bush abroad</a><br>
-          </div>
-          <img src="teach.jpg" alt="" width="80%"><br>
-          <p><span class="span">by<b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p></span> 
-
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Fugiat possimus saepe laboriosam eveniet cum, praesentium illum quam,
-             fugit minus corporis velit tenetur asperiores optio ut delectus.</span>
-            <br>
-         
-        <div class="icon-text2">
-           <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius
-         <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
-        </a>
-        <img src="customer.jpg" alt="">
-
-         </div>
-         <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-          laboriosam eveniet cum... <a href="" style="font-style: italic;">see more</a></span> 
-         <br><br>
-
-        <div class="icon-text2">
-           <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius
-         <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
-        </a>
-        <img src="customer.jpg" alt="">
-
-         </div>
-         <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-          laboriosam eveniet cum... <a href="" style="font-style: italic;">see more</a></span> 
-         <br><br>
-
-        <div class="icon-text2">
-           <a href="" class="icon2head">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Illumsunt<br> aperiam eius
-         <p><span>by</span> <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</p>
-        </a>
-        <img src="customer.jpg" alt="">
-
-         </div>
-         <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-          laboriosam eveniet cum... <a href="" style="font-style: italic;">see more</a></span> 
-         <br><br>
-<br><br>
-  </section>
-
-  </section>
-
-
-  
-
-  <section id="allother-read2">
-    <section class="other-read">
-<div id="sports"></div><br><br><br><br><br><br><br>
-      
-      <div class="heading">
-        <b class="header">sports</b>
-          <div class="line"></div>
-      </div><br>
-      
-
-        <div style="width: 90%;">
-        <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid </a><br>
-        <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-          </div>
-          <img src="teach.jpg" alt="" width="100%"><br>
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-            laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
-          <br><br>
-
- 
-        <div style="width: 90%;">
-        <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid </a><br>
-        <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-          </div>
-
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-            laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
-          <br><br>
-        <div style="width: 90%;">
-        <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid </a><br>
-        <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-          </div>
-
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-            laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
-          <br><br>
-          <div style="width: 90%;">
-            <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid </a><br>
-            <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-              </div>
-    
-              <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-                laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
-              <br><br>
-    
-
-        <div style="width: 90%;">
-        <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid</a><br>
-        <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-          </div>
-
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-            laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
-          <br><br>
-
-        <div style="width: 90%;">
-        <a href="" style="padding: 0px;margin: 0px;font-size: 24px;">manchestar battles real Madrid</a><br>
-        <b style="font-style:italic;font-size: 20px;">Fifa word cup </b><br>
-          </div>
-
-          <span class="span">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Fugiat possimus saepe laboriosam eveniet cum Fugiat possimus saepe 
-            laboriosam eveniet cum...<a href="" style="font-style: italic;">see more</a></span> 
           
+          <div class="icon-text ">
+            <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Culpa, placeat! Esse repudiandae sint delectus
+               maxime placeat suscipit eos deserunt</div>
 
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>
-
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;">Vardo races torendo on jaimaican race rumble <br> 
-              <br><b style="font-style:italic;font-size: 20px;">Race </b><br>
-              </a>
-            </div>
+          <div class="icon-text ">
+            <b><i class="fa-solid fa-play"></i></b> <a id="link"href="">Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Culpa, placeat! Esse repudiandae sint delectus
+               maxime placeat suscipit eos deserunt</div>
+          
+          <a id="link"href="thenigerianNews.html"><button class="load-more" style="font-weight: 900;">View More</button></a>
+          <br><br>
+    
+        </div>
+    
+      </div>     
   </section>
 
-  </section>
-
-
-</div>
-
-<div id="blockbuster"></div><br><br><br><br><br><br><br>
-
-<div class="threeflex" style="width: 80%;">
-
-    
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header">BlockBusters</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:3px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
-
   </div>
-     <div class="icon-text" style="border-bottom:3px solid rgb(54, 54, 54);">
-       <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text" style="border-bottom:3px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>     
- 
-   </div>
 
-<div id="sponsor"></div><br><br><br><br><br><br><br><br><br><br>
-  
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header">Sponsored</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:2px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
 
-  </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-       <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b><i class="fa-solid fa-clock"></i> April 20, 2023</span>
-      
-    </a><br>
-    </div>     
- 
-   </div>
- 
-
-<div id="health"></div><br><br><br><br><br><br><br><br><br>
-  
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header">Health</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:2px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
-
-  </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-       <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>     
- 
-   </div>
- 
-</div>
-<br><br>
-<div class="threeflex" style="width: 80%;">
-
-<div id="musicupdate"></div><br><br><br><br><br><br><br>
-    
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header"><i class="fa-solid fa-music"></i> Music</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:2px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
-
-  </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-       <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b><a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>     
- 
-   </div>
-<div id="Canival"></div><br><br><br><br><br><br><br>
-  
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header">Canivals</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:2px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
-
-  </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text" style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>     
- 
-   </div>
- 
-
-<div id="Relationship"></div><br><br><br><br><br><br><br>
-  
-  <div class="margflex">
-    <div class="heading" >
-     <b class="header">Relationship</b>
-       <div class="line"></div>
-   </div>
-   <div class="icon-text3"  style="border-bottom:2px solid rgb(54, 54, 54);">
-   
-    <img src="customer.jpg" alt="">
-    <a href="" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
-    sunt aperiam eius aliquid reprehenderit aut! Excepturi 
-    <p><span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
-  </a>
-
-  </div>
-     <div class="icon-text"  style="border-bottom:2px solid rgb(54, 54, 54);">
-       <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-    <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-       
-     </a><br><br><br>
-     </div>
-     <div class="icon-text" style="border-bottom:2px solid rgb(54, 54, 54);">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>
-    <div class="icon-text">
-      <b><i class="fa-solid fa-play"></i></b> <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum <br> 
-   <span class="span">by <b class="writer-name">Vivian Nwoko </b>April 20, 2023</span>
-      
-    </a><br><br><br>
-    </div>     
- 
-   </div>
- 
-
-</div>
-
-<div id="subscribe-container">
-<img src="avartarman2.png" alt="">
-<div class="colormb"></div>
-<div class="subtext">
-<center><b>hello, welcome to the Nigerian market center, with our popularity, 
-  we give you the audience you need</b></center>
-
-</div>
-
-</div>
+</section>
 
 <footer>
 <center>
-  <div class="textrr">
-    <a href="">About us</a>
-    <a href="">advertise</a>
-    <a href="tel:+2348140170078">contact us</a>
-    <a href="">subscribe</a>
-    <a href="">Write us</a>
 
-  </div><br><br>
+  <div class="textrr">
+      
+    <a id="link"href="thenigerian.html">Home</a>
+    <a id="link"href="TheNigerians-Entertainment.html">Entertainment news</a>
+
+    <a id="link"href="thenigerianNews.html">News</a>
+    <a id="link"href="thenigerianMusic&Videos.html">Nigeria music & videos</a>
+    <a id="link"href="thenigeriansBBNaijaupates.html">BBNaija season</a>
+    
+
+  </div> <br><br>
   
   <div class="icons" >
-    <a href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
-     <a href=""><i  class="fa-brands fa-twitter"></i></a>
-    <a href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
-     <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
-     <a href=""><i class="fa-brands fa-tiktok"></i></a>
+    <a id="link"href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
+     <a id="link"href=""><i  class="fa-brands fa-twitter"></i></a>
+    <a id="link"href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
+     <a id="link"href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
+     <a id="link"href=""><i class="fa-brands fa-tiktok"></i></a>
    </div>
+   <br><br>
+
+   <div class="textrr">
+    <a id="link"href="">About us</a><br>
+    <a id="link"href="#ggg" onclick="advert()">advertise</a><br>
+    <a id="link"href="tel:+2348140170078">contact us</a><br>
+    <a id="link"href="">subscribe</a><br>
+    <a id="link"href="mailto:reachthenigerians@gmail.com">Write us</a>
+
+  </div>
 <br><br>
-<b>&copy;2023 TheNigeriansBiggestMedia</b>
-  </center>
+<b>&copy;2023 TheNigerians</b>
+  </center> 
 </footer>
+
 
 </body>
 </html>

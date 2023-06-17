@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css">
     <script src="entertainment.js"></script>
     <link rel="stylesheet" href="entertainment.css">
+    <link rel="stylesheet" href="viral.css">
 
 </head>
 <body>
@@ -21,10 +22,31 @@
   
       
         <div class="semi-headtext">
-        <a href="">advertise</a>
+          <a href="#ggg" onclick="advert()">advertise</a>
         <a href="tel:+2348140170078">contact us</a>
         <a href="">subscribe</a>
       </div>
+
+
+      
+      
+      <div class="search-cont">
+        <i class="fa-solid fa-search"></i>
+        <input type="search" name="" id="" placeholder="search......">
+        
+      </div>
+
+        
+      <div  id="switch">
+        <label class="switch" onclick="turn('')">
+          <input type="checkbox" checked>
+          <div class="switcher round"></div>
+        </label>
+
+      </div>
+
+
+
       
       <div class="icons" >
         <a href="https://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
@@ -37,11 +59,11 @@
       
       
        
-    <div class="fullscreen-navbar">
+    <a href=""> <div class="fullscreen-navbar">
     <div class="logo1">
       <img src="nigerancanva.png" alt="">
   
-    </div>
+    </div></a>
 
     <div class="nav1">
       
@@ -49,39 +71,30 @@
       <div class="dropdown">
 
         <b class="dropbtn">
-          home &#10097;
+          News &#10097;
         <b onclick="showdropdown()" class="category">category <i class="fa-solid fa-angle-down"></i></b>
          </b>
         <div id="myDropdown" class="dropdown-content">
           <b href="javascript:void(0)" class="closedrop" onclick="closedrop()">
             <b>&times;</b> </b><br>
-          <strong>Word news</strong>
-          <a href="#">africa</a>
-          <a href="#">Europe</a>
-          <a href="#">asia</a>
-          <a href="#">middle east</a>
-          <a href="#">asia pecific</a><br>
-          <strong>Entertainment</strong>
-          <a href="#">BB naija season</a>
-          <a href="#">canivals</a>
-          <a href="#">documentation</a>
-          <a href="#">wedding today</a><br>
-          <strong>health</strong>
-          <a href="#">fitness and health</a>
-          <a href="#">stay fit today</a>
-          <a href="#">food and diet</a><br>
-          <strong>movies thrailers</strong>
-          <a href="#">nollywood</a>
-          <a href="#">bollywood</a>
-          <a href="#">hollywood</a>
-  
+
+          <a href="#mostd">Most debated</a>
+          <a href="#tophead">Top News</a>
+          <a href="#popularn">int'l news</a>
+          <a href="#next1" onclick="next1()">economy</a>
+          <a href="#next2" onclick="next2()">war</a>
+          <a href="#next3"onclick="next3()">Ecology</a>
+          <a href="#next4" onclick="next4()">education</a>
+          <a href="#next5"  onclick="next5()">awareness</a>
+          <a href="#next0"  onclick="next0()">sports</a>
+
         </div>
       </div>
     </div>
       
       <a href="thenigerian.html">Home</a>
       <a href="TheNigerians-Entertainment.html">Entertainment news</a>
-      <a href="thenigerianViral.html">Viral news</a>
+
       <a href="thenigerianNews.html" class="present">News</a>
       <a href="thenigerianMusic&Videos.html">Nigeria music & videos</a>
       <a href="thenigeriansBBNaijaupates.html">BBNaija season</a>
@@ -98,7 +111,6 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="thenigerian.html">Home</a>
       <a href="TheNigerians-Entertainment.html">Entertainment</a>
-      <a href="thenigerianViral.html">Viral News</a>
       <a href="thenigerianNews.html" class="present">News</a>
       <a href="thenigerianMusic&Videos.html">Nigerian music & Videos</a>
       <a href="thenigeriansBBNaijaupates.html">BBNaija season</a>
@@ -108,10 +120,29 @@
          <a href=""><i  class="fa-brands fa-twitter"></i></a>
         <a href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
          <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
-       </div></center>
+       </div></center><br>
+       <a href="tel:+2348140170078">contact us</a>
+       <a href="mailto:reachthenigerians@gmail.com">advertize</a>
+       <a href="#subs">subscribe</a> <br>
 
-  
+       <div class="dropsmall" >
+        <b class="dropbtnsmall">home &#10097;
+          <b onclick="showdropdownsmall()" class="category">category <i class="fa-solid fa-angle-down" style="font-size: 20px;"></i></b>
+          </b>
+          <br>
+        <div class="dropdown-content-small" id="small-dropdown">
+          <a href="#mostd">Most debated</a>
+          <a href="#tophead">Top News</a>
+          <a href="#popularn">int'l news</a>
+          <a href="#next1" onclick="next1()">economy</a>
+          <a href="#next2" onclick="next2()">war</a>
+          <a href="#next3"onclick="next3()">Ecology</a>
+          <a href="#next4" onclick="next4()">education</a>
+          <a href="#next5"  onclick="next5()">awareness</a>
+          <a href="#next0"  onclick="next0()">sports</a>
 
+        </div>
+      </div>
 
 
 
@@ -121,12 +152,18 @@
   </div> 
     
 
-    <div class="logo2" id="logo2">
+   <a href=""> <div class="logo2" id="logo2">
       <img src="nigerancanva.png" alt="">
-    </div>
+    </div></a>
 
   </div>
-  </header><br><br><br><br><br>
+  </header><br><br>
+  <div class="search-cont2">
+        
+    <i class="fa-solid fa-search"></i>
+    <input type="search" name="" id="" placeholder="search......">
+  </div>
+  <br><br><br>
 
   <a href="#allpage-content">
     <div id="goup" >
@@ -136,28 +173,60 @@
     </div>
   </a>
 
-  <section onclick="removeNav()" id="entertainment"> 
+  <section onclick="removeNav()" id="bdy"> 
 
-    <div class="slideshow-container">
-    <div class="slider" >
-      <div class="mySlides fade" id="myslide">
+    <div id="entertainment">
 
-        <div class="numbertext">News</div>
-       <a href="">
-         <img src="set-cam.jpg" style="width:100%"> 
-        
-        <div class="text">
-          <b>  <i class="fa-solid fa-clock"></i> April 20, 2023</b> <br>
-          <span class="slidebrief-text">
-            i am not married to ade,we are just dating,
-            i am not married to ade,we are just dating
-            i am not married to ade,we are just dating</span>
-        </div>  
-      </a>
-      </div> 
-  </div>
-  </div>
-  <div id="homeup"></div>
+
+      <div class="slideshow-container" >
+ 
+        <div class="mySlides fade" id="myslide">
+        <div class="news-detail">
+      
+        <a href=""> <b>singer spiro Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          At accusamus ducimus, velit, minima culpa odio nisi a ess</b></a>
+      
+      </div>
+      <p><span class="span">by</span> <b class="writer-name">Vivian Nwoko </b></p>
+      
+       <!--LATEST NEWS1--> 
+       
+      
+         <div class="numbertext">News Update</div>
+         
+         <div  class="imghh">
+        <a href="">
+          <img src="set-cam.jpg" style="width:100%"> 
+          
+       </a>
+      </div>
+      <div class="share-icon">
+      
+        <center> <div class="icons" >
+          <a href="http://www.facebook.com/thenigeriansST?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" ></i></a>
+           <a href=""><i  class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/the.nigerians"> <i class="fa-brands fa-instagram" ></i></a>
+           <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
+           <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-share" style="border-right:1px solid rgb(53, 52, 52);" ></i></a>
+      
+         </div></center>
+      
+      </div>
+      <b><i class="fa-solid fa-clock"></i><span class="span"> April 20, 2023</b>
+      
+           <div class="news-detail">
+      
+               <p><span style="font-weight:700;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa in id accusantium aperiam iure enim tempora, odit similique sed minima 
+                 aliquid repellendus quas quisquam? Quas ut dolorem exercitationem quidem voluptatem......</span></p>
+                 <p><button class="read-more">READ MORE</button></p>
+               
+          </div>
+      
+             
+         </div>
+      </div>
+        <div id="homeup"></div>
 
   <br><br><br>
 
@@ -167,10 +236,12 @@
 
   <section class="other-read">
 
-
-  <b class="headtxt">News</b>
+<div id="next0"><br><br><br><br><br><br><br>
   
-<div id="next0">
+  <div class="heading">
+    <b class="header">Sports</b>
+      <div class="line"></div>
+  </div>
         <div class="icon-text2">
           <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
 
@@ -396,6 +467,13 @@
 
 </div>
 <div id="next1">
+
+  <br><br><br><br><br><br><br>
+  
+  <div class="heading">
+    <b class="header">economy</b>
+      <div class="line"></div>
+  </div>
 
   <div class="icon-text2">
     <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
@@ -623,6 +701,13 @@
 </div>
 
 <div id="next2">
+  <br><br><br><br><br><br><br>
+  
+  <div class="heading">
+    <b class="header">war</b>
+      <div class="line"></div>
+  </div>
+
   <div class="icon-text2">
     <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
 
@@ -850,6 +935,13 @@
 </div>
 
 <div id="next3">
+  <br><br><br><br><br><br><br>
+  
+  <div class="heading">
+    <b class="header">ecology</b>
+      <div class="line"></div>
+  </div>
+
   <div class="icon-text2">
     <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
 
@@ -1077,6 +1169,13 @@
 
 <div id="next4">
 
+  <br><br><br><br><br><br><br>
+  
+  <div class="heading">
+    <b class="header">education</b>
+      <div class="line"></div>
+  </div>
+
   <div class="icon-text2">
     <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
 
@@ -1303,7 +1402,12 @@
 </div>
 
 <div id="next5">
-
+  <br><br><br><br><br><br><br>
+  
+  <div class="heading">
+    <b class="header">awareness</b>
+      <div class="line"></div>
+  </div>
   <div class="icon-text2">
     <div class="" style="width: 80%;margin: 0px 10px 0px 0px;">
 
@@ -1530,7 +1634,7 @@
 </div>
 
      <button class="load-more" style="font-size: 17;font-weight: 900;">View More</button>
-     <br>
+     <br><br><br>
 
 <center>
 <div class="shownext">
@@ -1552,16 +1656,18 @@
   <div id="semiNav">
   <section id="allother-read2"  >
     <!--container that determine the margin of the read-->
-    <div class="other-read">
+    <div class="other-read" style="border-bottom: 0px;">
       <br>
     <center>
 
 
-    </center><br><br><br><br><br>
-        <div class="heading">
-          <b class="header">Recommended</b>
-            
-        </div>
+    </center>
+
+    <div id="tophead"></div><br><br><br><br><br><br>
+    <div class="heading">
+      <b class="header">Top news</b>
+        <div class="line"></div>
+    </div>
 
         <!--the class "icon-text determine the flex of the image and word 
         here but has smaller image sna lighter text"-->
@@ -1583,6 +1689,7 @@
           <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
         </div>
+
         <div class="icon-text3">
           <img src="customer.jpg" alt="">
           <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
@@ -1592,29 +1699,59 @@
           <img src="customer.jpg" alt="">
           <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
           sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
-        </div><br>
-
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="">
+          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="">
+          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+        </div>
+        <div class="icon-text3">
+          <img src="customer.jpg" alt="">
+          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+        </div>
+                <div class="icon-text3">
+          <img src="customer.jpg" alt="">
+          <a href="" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum 
+          sunt aperiam eius aliquid reprehenderit aut! Excepturi </a>
+        </div>
           
         <br><br>
+        <div id="mostd"></div><br><br><br><br><br><br><br>
         <div class="heading">
-          <b class="header"><i class="fa-brands fa-youtube"></i> New realise</b>
+          <b class="header">most debated</b>
             <div class="line"></div>
         </div>
         <img src="set-cam.jpg" alt="" width="80%">
 
   
+        <div class="icon-text">
+          <b><i class="fa-solid fa-play"></i></b> <a href="">was the recent coducted elections free and credible
+          <p><span style="color: gray;">life show <b class="writer-name">@MPC tv </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
+        </a>
+        </div>
+        <div class="icon-text">
+          <b><i class="fa-solid fa-play"></i></b> <a href=""> the effect of tribal war to national building
+          <p><span style="color: gray;"> hot seat with <b class="writer-name"> dorothy ekpei </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
+        </a>
+        </div>
             <div class="icon-text3">
               <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
+              <a href="" style="font-size: 17px;" >why we need more doctors in the system &#9866; <br> 
+               thomas brinston<p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
                
             </div>
-            <div class="icon-text3">
-              <img src="customer.jpg" alt="">
-              <a href="" style="font-size: 17px;" >the woder land &#9866; miland<br> 
-               ft Asake <p> <i class="fa-solid fa-clock"></i>April 30,2023</p></a><br>
-               
-            </div>
+            
+        <div class="icon-text">
+          <b><i class="fa-solid fa-play"></i></b> <a href=""> why china remains one of the world best technicians 
+          <p><span style="color: gray;">interview by <b class="writer-name"> therisa mendy </b> <i class="fa-solid fa-clock"></i>April 20, 2023</span></p>
+        </a>
+        </div>
             
             <div class="subscribe-form">
               <form action="">
@@ -1626,9 +1763,9 @@
             <button type="submit">Subscribe</button><br><br>
           </form>
           </div>
-
+          <div id="popularn"></div><br><br><br><br><br><br>
           <div class="heading">
-            <b class="header">Popular News</b>
+            <b class="header">international News</b>
               <div class="line"></div>
           </div>
           <img src="set-cam.jpg" alt="" width="80%">
@@ -1694,18 +1831,17 @@
              has different width with the later-->
 
            
-  
+            </div>  
   </section>
-
 
   <footer>
     <center>
       <div class="textrr">
         <a href="">About us</a>
-        <a href="">advertise</a>
+        <a href="#ggg" onclick="advert()">advertise</a>
         <a href="tel:+2348140170078">contact us</a>
         <a href="">subscribe</a>
-        <a href="">Write us</a>
+        <a href="mailto:reachthenigerians@gmail.com">Write us</a>
     
       </div>
       <br><br>
@@ -1716,10 +1852,27 @@
          <a href="mailto:reachthenigerians@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
          <a href=""><i class="fa-brands fa-tiktok"></i></a>
        </div>
+
+       <br><br>
+    <div class="textrr">
+      
+      <a href="thenigerian.html">Home</a>
+      <a href="TheNigerians-Entertainment.html">Entertainment news</a>
+
+      <a href="thenigerianNews.html">News</a>
+      <a href="thenigerianMusic&Videos.html">Nigeria music & videos</a>
+      <a href="thenigeriansBBNaijaupates.html">BBNaija season</a>
+      
+
+    </div> 
+
+
     <br><br>
     <b>&copy;2023 TheNigeriansBiggestMedia</b>
       </center>
     </footer>
+    
+
     
 </body>
 </html>
